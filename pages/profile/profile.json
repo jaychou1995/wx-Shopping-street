@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+	  "user-info-top":"./childCompontents/user-info-top/user-info-top",
+	  "user-data":"./childCompontents/user-data/user-data",
+	  "user-list-view":"./childCompontents/user-list-view/user-list-view"
+  },
+	"navigationBarTitleText": "个人中心"
+}

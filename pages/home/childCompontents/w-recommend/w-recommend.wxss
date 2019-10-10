@@ -1,0 +1,22 @@
+/* pages/home/childCompontents/w-recommend/w-recommend.wxss */
+.recommend{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 40rpx;
+	padding-top: 20rpx;
+	background-color: #fff;
+}
+.recommend-in{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.recommend-in image{
+	width: 160rpx;
+	height: 160rpx;
+}
+.recommend-in text{
+	color: #666666;
+	font-size: 30rpx;
+}

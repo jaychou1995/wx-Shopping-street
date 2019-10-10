@@ -1,0 +1,16 @@
+/* pages/profile/childCompontents/user-data/user-data.wxss */
+.user-data{
+	background-color: #fff;
+}
+.data-in{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.data-item{
+	flex: 1;
+	padding: 50rpx 0;
+}
+.data-count{
+	color: #ff5f3e;
+}

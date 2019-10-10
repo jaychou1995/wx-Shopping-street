@@ -1,0 +1,11 @@
+<!--pages/profile/childCompontents/user-list-view/user-list-view.wxml-->
+	<view class="profile-list">
+		<view class="list-in">
+			<block wx:for="{{listData}}" wx:key="index">
+				<view class="div-item">
+					<image src="/assets/images/profile/{{item.icon}}"></image>
+					<text>{{item.info}}</text>
+				</view>
+			</block>
+		</view>
+	</view>

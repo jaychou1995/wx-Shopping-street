@@ -1,0 +1,21 @@
+/* pages/profile/childCompontents/user-list-view/user-list-view.wxss */
+.profile-list{
+	margin-top: 30rpx;
+}
+.div-item{
+	height: 100rpx;
+	line-height: 100rpx;
+	background-color: #fff;
+	font-size: 32rpx;
+	padding-left: 30rpx;
+	border-bottom: 1px solid #f8f8f8;
+}
+.div-item image{
+	width: 40rpx;
+	height: 40rpx;
+	vertical-align: middle;
+	margin-top: -2rpx;
+}
+.div-item text{
+	margin-left: 20rpx;
+}

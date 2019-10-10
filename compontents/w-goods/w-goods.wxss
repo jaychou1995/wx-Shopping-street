@@ -1,0 +1,10 @@
+/* compontents/w-goods/w-goods.wxss */
+.goods{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 16rpx;
+}
+.item-list{
+	width: 48%;
+}

@@ -1,0 +1,48 @@
+/* pages/profile/childCompontents/user-info-top/user-info-top.wxss */
+.user-info-top{
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: #ff5777;
+	height: 170rpx;
+	padding: 12rpx 30rpx 30rpx 30rpx;
+	box-sizing: border-box;
+	color: #fff;
+	box
+}
+.avatar image{
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 50%;
+	background-color: #f2f2f2;
+	vertical-align: middle;
+}
+.phone image{
+	width: 36rpx;
+	height: 36rpx;
+	vertical-align: middle;
+	position: relative;
+	bottom: 4rpx;
+}
+.login-info{
+	margin-left: 30px;
+	vertical-align: middle;
+}
+.login{
+	font-size: 36rpx;
+	margin-top: 18rpx;
+}
+.phone{
+	font-size: 28rpx;
+	margin-top: 10rpx;
+}
+.arrow{
+	position: absolute;
+	right: 30rpx;
+	margin-top: 30rpx;
+}
+.arrow image{
+	width: 60rpx;
+	height: 60rpx;
+}

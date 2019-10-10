@@ -1,0 +1,10 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile">
+	<user-info-top userInfo="{{userInfo}}"></user-info-top>
+	<user-data></user-data>
+	
+	<user-list-view listData="{{orderList}}"></user-list-view>
+	<user-list-view listData="{{serviceList}}"></user-list-view>
+	
+</view>
+	
