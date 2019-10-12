@@ -46,3 +46,16 @@
 	width: 60rpx;
 	height: 60rpx;
 }
+.avatar{
+	position: relative;
+}
+.getUserInfo{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 50%;
+	z-index: 1;
+	opacity:0
+}

@@ -3,6 +3,7 @@
 		<view class='avatar'>
 			<image wx:if="{{userInfo.avatarUrl}}" src="{{userInfo.avatarUrl}}"/>
 		    <image wx:else src="/assets/images/profile/avatar.png"/>
+			<button class="getUserInfo" wx:if="{{!userInfo.avatarUrl}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"></button>
 		</view>
 		<view class="login-info">
 			<view class='login' wx:if="{{userInfo.nickName}}">{{userInfo.nickName}}</view>

@@ -1,4 +1,6 @@
 // pages/profile/childCompontents/user-info-top/user-info-top.js
+const app = getApp()
+
 Component({
   /**
    * 组件的属性列表
@@ -21,6 +23,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+	getUserInfo(e){
+		app.globalData.userInfo = e.detail.userInfo
+		this.setData({
+		  userInfo: e.detail.userInfo,
+		  hasUserInfo: true
+		})
+	}
   }
 })
